@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
                 db.userDao().insert(user1);
 
                 final List<User> users = db.userDao().getAll();
-
+//                displayUserList(users);
                 runOnUiThread(new Runnable() {
                     @Override
                     public void run() {
